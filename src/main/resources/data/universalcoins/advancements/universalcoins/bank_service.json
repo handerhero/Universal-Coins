@@ -1,0 +1,31 @@
+{
+  "parent": "universalcoins:universalcoins/your_first_money",
+  "display": {
+    "icon": {
+      "item": "universalcoins:ender_card"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.bank_service.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.bank_service.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cheap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "item": "universalcoins:uc_card" }] }
+    },
+    "rich": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "item": "universalcoins:ender_card" }] }
+    }
+  },
+  "requirements": [
+    ["cheap", "rich"]
+  ]
+}

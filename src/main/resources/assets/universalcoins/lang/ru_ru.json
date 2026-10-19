@@ -1,0 +1,176 @@
+{
+  "itemGroup.universalcoins": "Universal Coins",
+
+  "item.universalcoins.iron_coin": "Монета",
+  "item.universalcoins.gold_coin": "Золотая Монета",
+  "item.universalcoins.emerald_coin": "Изумрудная Монета",
+  "item.universalcoins.diamond_coin": "Алмазная Монета",
+  "item.universalcoins.obsidian_coin": "Обсидиановая Монета",
+  "item.universalcoins.netherite_coin": "Незеритовая Монета",
+  "item.universalcoins.uc_card": "UC Карта",
+  "item.universalcoins.ender_card": "Эндер Карта",
+  "item.universalcoins.link_card": "Карта Линковки Удалённого Хранилища",
+  "item.universalcoins.catalog": "Каталог Продаж",
+  "item.universalcoins.vendor_wrench": "Ключ Продавца",
+  "item.universalcoins.uc_sign": "Продвинутая Табличка",
+  "item.universalcoins.uc_package": "Посылка",
+
+  "block.universalcoins.tradestation": "Торговая Станция",
+  "block.universalcoins.safe": "Эндер Сейф",
+  "block.universalcoins.vendor_block": "Блок Продаж",
+  "block.universalcoins.vendor_frame": "Рамка Продаж",
+  "block.universalcoins.signalblock": "Генератор Сигнала Красного Камня",
+  "block.universalcoins.packager": "Упаковщик",
+  "block.universalcoins.power_transmitter": "FE Трансмиттер",
+  "block.universalcoins.power_receiver": "FE Рессивер",
+  "block.universalcoins.atm": "Банкомат",
+
+  "general.currency.single": "Монета",
+  "general.currency.multiple": "Монеты",
+  "general.button.buy": "Купить",
+  "general.button.sell": "Продать",
+  "general.button.edit": "Редактировать",
+  "general.button.save": "Сохранить",
+  "general.button.send": "Отправить",
+  "general.button.coin": "Монета",
+  "general.label.balance": "Баланс: ",
+  "general.label.price": "Цена: ",
+  "general.label.public": "Публичный",
+  "general.label.private": "Приватный",
+  "chat.warning.inuse": "Блок используеться. Попробуйте позже.",
+  "chat.warning.private": "Блок приватный. Доступ только для владельца.",
+
+  "item.card.balance": "Баланс Аккаунта:",
+  "item.card.warning": "Карта не активна. Правая кнопка для активации.",
+  "item.card.deposit": "Положено",
+
+  "item.link_card.blank": "Бланк",
+  "item.link_card.stored": "Локация Записана",
+  "item.link_card.message.stored": "Записанная локация: ",
+  "item.link_card.message.set": "Локация удалённого хранилища установлена.",
+
+  "tradestation.gui.button.mode": "Режим",
+  "tradestation.gui.warning.noitem": "Нет предмета",
+  "tradestation.gui.label.autobuy": "Авто Покупать/Продовать",
+  "tradestation.gui.autolabel.off": "Выкл",
+  "tradestation.gui.autolabel.buy": "Купить",
+  "tradestation.gui.autolabel.sell": "Продать",
+
+  "signal.label.fee": "Монеты:",
+  "signal.label.duration": "Длительность:",
+  "signal.face.label.second": "второй",
+  "signal.face.label.seconds": "сеунды",
+  "signal.face.label.coin": "монета",
+  "signal.face.label.coins": "монеты",
+  "signal.message.notenough": "Не достаточно монет!",
+  "signal.message.activated": "Сигнал активирован.",
+
+  "sign.sellmode.sell": "Продовать",
+  "sign.sellmode.buy": "Покупать",
+  "sign.price": "Цена: ",
+  "sign.warning.stock": "Нет в наличии!",
+  "sign.warning.coins": "Нет монет!",
+  "sign.warning.inventoryfull": "Инвентарь полон!",
+
+  "vendor.wrench.owner": "Владелец",
+  "vendor.wrench.infiniteon": "Нескончаемость: Вкл",
+  "vendor.wrench.infiniteoff": "Нескончаемость: Выкл",
+
+  "packager.button.small": "Маленький",
+  "packager.button.medium": "Средний",
+  "packager.button.large": "Большой",
+  "packager.button.mode.buy": "Режим: Купить",
+  "packager.button.mode.send": "Режим: Оправить",
+  "packager.message.sent": " отправить вам посылку",
+
+  "atm.welcome.one": "C:Добро Пожаловать в",
+  "atm.welcome.two": "C:Универсал Банк",
+  "atm.welcome.five": "C:Вставьте кнопку или",
+  "atm.welcome.six": "C:нажмите любую кнопку",
+  "atm.welcome.seven": "C:чтобы продолжить",
+
+  "atm.main.two": "<-- Баланс",
+  "atm.main.four": "<-- Положить",
+  "atm.main.six": "<-- Снять",
+  "atm.main.eight": "<-- Допполнительные Опции",
+
+  "atm.additional.two": "<-- Новая Карта",
+  "atm.additional.four": "<-- Передача Аккаунта",
+  "atm.additional.eight": "<-- Предыдушее Меню",
+
+  "atm.auth.two": "C:Сканирование",
+  "atm.auth.access": "C:Получение аккаунта",
+  "atm.auth.success": "C:Аккаунт найден",
+  "atm.auth.fail": "C:Аккаунт не найден",
+
+  "atm.balance.three": "Баланс:",
+  "atm.balance.eight": "<-- Предыдушее Меню",
+
+  "atm.deposit.one": "Внести Монеты",
+  "atm.deposit.three": "Баланс:",
+  "atm.deposit.eight": "<-- Предыдушее Меню",
+
+  "atm.withdraw.one": "Доступный Баланс:",
+  "atm.withdraw.three": "Количество для снятия:",
+  "atm.withdraw.six": "<-- Снять",
+  "atm.withdraw.eight": "<-- Предыдушее Меню",
+
+  "atm.newcard.two": "C:Дополнительные карты",
+  "atm.newcard.three": "C:предоставляются бесплатно.",
+  "atm.newcard.six": "<-- Новая Карта",
+  "atm.newcard.eight": "<-- Отменить",
+
+  "atm.newaccount.two": "C:Хотели бы вы",
+  "atm.newaccount.three": "C:открыть новый аккаунт?",
+  "atm.newaccount.six": "<-- Открыть Аккаунт",
+  "atm.newaccount.eight": "<-- Отменить",
+
+  "atm.transferaccount.two": "C:Все монеты будут",
+  "atm.transferaccount.three": "C:переданы на",
+  "atm.transferaccount.four": "C:новый аккаунт",
+  "atm.transferaccount.six": "<-- Открыть Новый Аккаунт",
+  "atm.transferaccount.seven": "<-- Отменить",
+
+  "atm.takecard.five": "Подалуйста вставте карту -->",
+  "atm.takecard.eight": "<-- Готово",
+
+  "atm.takecoins.three": "Пожалуста вставте монеты -->",
+  "atm.takecoins.eight": "<-- Готово",
+
+  "atm.insufficient.three": "C:ОШИБКА",
+  "atm.insufficient.five": "C:insufficient funds",
+  "atm.insufficient.eight": "<-- Предыдушее меню",
+
+  "atm.invalid.three": "C:ОШИБКА",
+  "atm.invalid.five": "C:неверный ввод",
+  "atm.invalid.eight": "<-- Предыдушее меню",
+
+  "atm.badcard.three": "C:НЕВЕРНАЯ КАРТА",
+  "atm.badcard.five": "C:Карта была",
+  "atm.badcard.six": "C:конфискована",
+
+  "atm.unauthorized.three": "C:НЕАВТОРИЗОВАННЫЙ ДОСТУП",
+  "atm.unauthorized.five": "C:Только аккаунт",
+  "atm.unauthorized.six": "C:владелец может сделать это",
+
+  "atm.processing.four": "C:В процессе...",
+
+
+  "advancements.universalcoins.get_your_first_coin.title": "Деньги!",
+  "advancements.universalcoins.get_your_first_coin.desc": "Получите вашу первую монету",
+  "advancements.universalcoins.get_netherite_coin.title": "Это вам не рубль...",
+  "advancements.universalcoins.get_netherite_coin.desc": "Получите незеритовую монету",
+  "advancements.universalcoins.bank_service.title": "Банковские услуги",
+  "advancements.universalcoins.bank_service.desc": "Получите банковскую карту",
+  "advancements.universalcoins.balance_1k.title": "Первые накопления",
+  "advancements.universalcoins.balance_1k.desc": "Накопите 1 000 монет на своём банковском счёте",
+
+  "advancements.universalcoins.balance_1m.title": "Миллионер",
+  "advancements.universalcoins.balance_1m.desc": "Достигните баланса в 1 000 000 монет",
+
+  "advancements.universalcoins.balance_1b.title": "Миллиардер",
+  "advancements.universalcoins.balance_1b.desc": "Сколотите состояние в 1 000 000 000 монет!",
+
+  "advancements.universalcoins.balance_1t.title": "Ой... подожди... остановись...",
+  "advancements.universalcoins.balance_1t.desc": "КАК?! Накопите 1 000 000 000 000 монет на счёте!!!"
+}

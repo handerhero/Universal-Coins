@@ -1,0 +1,30 @@
+{
+  "parent": "universalcoins:universalcoins/your_first_money",
+  "display": {
+    "icon": {
+      "item": "universalcoins:netherite_coin"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.get_netherite_coin.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.get_netherite_coin.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_coin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+             "item": "universalcoins:netherite_coin"
+          }
+        ]
+      }
+    }
+  }
+}

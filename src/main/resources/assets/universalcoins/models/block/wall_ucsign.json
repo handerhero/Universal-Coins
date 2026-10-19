@@ -1,0 +1,21 @@
+{
+    "textures": {
+        "0": "minecraft:block/birch_planks",
+        "particle": "minecraft:block/birch_planks"
+    },
+    "elements": [
+        {
+            "name": "SignBoard",
+            "from": [ 0, 4, 0 ],
+            "to": [ 16, 12, 1 ],
+            "faces": {
+                "north": {"texture": "#0", "uv": [ 0, 4, 16, 12 ] },
+                "south": {"texture": "#0", "uv": [ 0, 4, 16, 12 ] },
+                "up":    {"texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "down":  {"texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "east":  {"texture": "#0", "uv": [ 0, 4, 1, 12 ] },
+                "west":  {"texture": "#0", "uv": [ 0, 4, 1, 12 ] }
+            }
+        }
+    ]
+}

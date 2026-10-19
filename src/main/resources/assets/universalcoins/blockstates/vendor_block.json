@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "universalcoins:block/vendor_block" }
+    }
+}
