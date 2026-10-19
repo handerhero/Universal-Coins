@@ -1,0 +1,26 @@
+{
+  "parent": "universalcoins:universalcoins/your_first_money",
+  "display": {
+    "icon": {
+      "item": "universalcoins:diamond_coin"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.balance_1k.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.balance_1k.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "balance_1k": {
+      "trigger": "universalcoins:account_balance_has_change",
+      "conditions": {
+        "min_balance": 1000
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "universalcoins:block/tradestation",
+        "side": "universalcoins:block/tradestation_face",
+		"particle": "universalcoins:block/tradestation"
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "universalcoins:universalcoins/one_thousand",
+  "display": {
+    "icon": {
+      "item": "universalcoins:obsidian_coin"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.balance_1m.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.balance_1m.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "balance_1m": {
+      "trigger": "universalcoins:account_balance_has_change",
+      "conditions": {
+        "min_balance": 1000000
+      }
+    }
+  }
+}

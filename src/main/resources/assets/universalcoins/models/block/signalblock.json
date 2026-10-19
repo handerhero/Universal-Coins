@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable",
+    "textures": {
+        "top": "universalcoins:block/signalblock_top",
+        "front": "universalcoins:block/signalblock_face",
+        "side": "universalcoins:block/signalblock",
+		"particle": "universalcoins:block/signalblock"
+	}
+}

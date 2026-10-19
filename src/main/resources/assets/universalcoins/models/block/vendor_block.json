@@ -1,0 +1,41 @@
+{	"parent": "block/cube_all",
+    "elements": [
+	    {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 2, 16 ],
+            "faces": {
+                "down":  { "texture": "#down" },
+                "up":    { "texture": "#up" },
+                "north": { "texture": "#north" },
+                "south": { "texture": "#south" },
+                "west":  { "texture": "#west" },
+                "east":  { "texture": "#east" }
+            }
+        },
+        {   "from": [ 1, 2, 1 ],
+            "to": [ 15, 15, 15 ],
+            "faces": {
+                "down":  { "texture": "#top_down" },
+                "up":    { "texture": "#top_up" },
+                "north": { "texture": "#top_north" },
+                "south": { "texture": "#top_south" },
+                "west":  { "texture": "#top_west" },
+                "east":  { "texture": "#top_east" }
+            }
+        }
+    ],
+    "textures": {
+	    "particle": "universalcoins:block/vendor_base",
+        "down": "universalcoins:block/vendor_base",
+        "up": "universalcoins:block/vendor_base",
+        "north": "universalcoins:block/vendor_base",
+        "south": "universalcoins:block/vendor_base",
+        "west": "universalcoins:block/vendor_base",
+        "east": "universalcoins:block/vendor_base",
+        "top_down": "universalcoins:block/vendor_bottom",
+        "top_up": "universalcoins:block/vendor_top",
+        "top_north": "universalcoins:block/vendor_side",
+        "top_south": "universalcoins:block/vendor_side",
+        "top_west": "universalcoins:block/vendor_side",
+        "top_east": "universalcoins:block/vendor_side"
+	}
+}

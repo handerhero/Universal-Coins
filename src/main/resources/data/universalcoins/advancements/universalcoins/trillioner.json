@@ -1,0 +1,29 @@
+{
+  "parent": "universalcoins:universalcoins/billioner",
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.balance_1t.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.balance_1t.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "balance_1t": {
+      "trigger": "universalcoins:account_balance_has_change",
+      "conditions": {
+        "min_balance": 1000000000000
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  }
+}

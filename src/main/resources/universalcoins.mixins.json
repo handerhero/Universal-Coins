@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "aspadien.universalcoins.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "universalcoins.refmap.json",
+  "client": [
+    "AdvancementTabMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

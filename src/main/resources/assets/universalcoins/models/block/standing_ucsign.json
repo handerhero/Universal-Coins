@@ -1,0 +1,34 @@
+{
+    "textures": {
+        "0": "minecraft:block/birch_planks",
+        "particle": "minecraft:block/birch_planks"
+    },
+    "elements": [
+        {
+            "name": "SignBoard",
+            "from": [ 0, 7, 7.5 ],
+            "to": [ 16, 16, 8.5 ],
+            "faces": {
+                "north": {"texture": "#0", "uv": [ 0, 0, 16, 9 ] },
+                "south": {"texture": "#0", "uv": [ 0, 0, 16, 9 ] },
+                "up":    {"texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "down":  {"texture": "#0", "uv": [ 0, 0, 16, 1 ] },
+                "east":  {"texture": "#0", "uv": [ 7, 0, 8, 9 ] },
+                "west":  {"texture": "#0", "uv": [ 7, 0, 8, 9 ] }
+            }
+        },
+        {
+            "name": "Stick",
+            "from": [ 7.5, 0, 7.5 ],
+            "to": [ 8.5, 7, 8.5 ],
+            "faces": {
+                "north": {"texture": "#0", "uv": [ 7, 9, 8, 16 ] },
+                "south": {"texture": "#0", "uv": [ 7, 9, 8, 16 ] },
+                "east":  {"texture": "#0", "uv": [ 7, 9, 8, 16 ] },
+                "west":  {"texture": "#0", "uv": [ 7, 9, 8, 16 ] },
+                "up":    {"texture": "#0", "uv": [ 7, 7, 8, 8 ] },
+                "down":  {"texture": "#0", "uv": [ 7, 7, 8, 8 ] }
+            }
+        }
+    ]
+}

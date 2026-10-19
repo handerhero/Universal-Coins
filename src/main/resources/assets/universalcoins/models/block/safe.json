@@ -1,0 +1,9 @@
+{
+	"parent": "block/orientable",
+    "textures": {
+        "top": "universalcoins:block/safe",
+        "front": "universalcoins:block/safe_face",
+        "side": "universalcoins:block/safe",
+		"particle": "universalcoins:block/safe"
+	}
+}

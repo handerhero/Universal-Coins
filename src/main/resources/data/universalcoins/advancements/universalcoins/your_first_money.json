@@ -1,0 +1,101 @@
+{
+  "display": {
+    "icon": {
+      "item": "universalcoins:gold_coin"
+    },
+    "title": {
+      "translate": "advancements.universalcoins.get_your_first_coin.title"
+    },
+    "description": {
+      "translate": "advancements.universalcoins.get_your_first_coin.desc"
+    },
+    "background": "universalcoins:textures/backgrounds/gold_coins_rain.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:iron_coin"
+            ]
+          }
+        ]
+      }
+    },
+    "gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:gold_coin"
+            ]
+          }
+        ]
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:emerald_coin"
+            ]
+          }
+        ]
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:diamond_coin"
+            ]
+          }
+        ]
+      }
+    },
+    "obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:obsidian_coin"
+            ]
+          }
+        ]
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "universalcoins:netherite_coin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron",
+      "gold",
+      "emerald",
+      "diamond",
+      "obsidian",
+      "netherite"
+    ]
+  ]
+}
